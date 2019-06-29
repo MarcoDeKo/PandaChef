@@ -8,11 +8,14 @@ def home(request):
         'cookbook/home.html'
     )
 
-def item(request, name):
+def ingredients(request):
     return render(
         request,
-        'cookbook/item.html',
-        {
-            'name': name
-        }
+        'cookbook/ingredients.html'
+    )
+
+def recipes(request):
+    return render(
+        request,
+        'cookbook/recipes.html'
     )

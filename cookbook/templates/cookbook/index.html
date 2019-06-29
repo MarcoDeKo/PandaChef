@@ -5,8 +5,9 @@
     <div class="nav-wrapper">
         <a href="#" class="brand-logo">Logo comes here</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="">Tab 1</a></li>
-                <li><a href="">Tab 2</a></li>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'recipes' %}">Recipe's</a></li>
+                <li><a href="{% url 'ingredients' %}">Ingredients</a></li>
         </ul>
     </div>
 </nav>
