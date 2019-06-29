@@ -1,26 +1,22 @@
 {% extends "cookbook/index.html" %}
 
 {% block body %}
-<strong>Kitchen</strong><br/>
-Pantry <br/>
-Fridge
-<table class="highlight responsive-table">
-        <thead>
-            <tr>
-                <th>Item</th>
-                <th>...</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Foo</td>
-                <td>Pantry</td>
-            </tr>
-            <tr>
-                <td>Baa</td>
-                <td>Fridge</td>
-            </tr>
-        </tbody>
-    </table>
-    
+<div class="row">
+    <strong>Kitchen</strong><br/>
+    <ul class="collapsible">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">kitchen</i>Fridge</div>
+            <div class="collapsible-body">
+                table
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">room_service</i>Pantry</div>
+            <div class="collapsible-body">
+                    table
+            </div>
+        </li>
+    </ul>
+    Collapsible needs jQuery
+</div>
 {% endblock %}
