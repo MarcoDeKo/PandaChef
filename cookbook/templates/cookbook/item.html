@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Welcome</title>
-    </head>
-    <body>
-        <strong>Item {{ name }}</strong>
-    </body>
-</html>
+{% extends "cookbook/index.html" %}
+
+{% block body %}
+<strong>You typed: "{{ name }}" as an item</strong>
+{% endblock %}
