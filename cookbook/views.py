@@ -19,3 +19,9 @@ def recipes(request):
         request,
         'cookbook/recipes.html'
     )
+
+def kitchen(request):
+    return render(
+        request,
+        'cookbook/kitchen.html'
+    )
