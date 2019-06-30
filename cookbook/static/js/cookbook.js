@@ -1,3 +1,3 @@
-$(function(){
-    alert("jQuery is working!");
-})
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+});
