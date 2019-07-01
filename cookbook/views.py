@@ -25,3 +25,9 @@ def kitchen(request):
         request,
         'cookbook/kitchen.html'
     )
+
+def shoppinglist(request):
+    return render(
+        request,
+        'cookbook/shoppinglist.html'
+    )

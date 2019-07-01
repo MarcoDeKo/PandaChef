@@ -6,4 +6,5 @@ urlpatterns = [
     path("recipes", views.recipes, name="recipes"),
     path("ingredients", views.ingredients, name="ingredients"),
     path("kitchen", views.kitchen, name="kitchen"),
+    path("shoppinglist", views.shoppinglist, name="shoppinglist"),
 ]

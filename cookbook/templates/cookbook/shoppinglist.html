@@ -1,0 +1,27 @@
+{% extends "cookbook/index.html" %}
+
+{% block body %}
+<div class="row">
+    <strong>Shopping List</strong><br/>
+    <ul class="collapsible">
+        <li id="kitchen_fridge_collapsible">
+            <div class="collapsible-header"><i class="material-icons">beach_access</i>Oriental</div>
+            <div class="collapsible-body">
+                Toko
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">room_service</i>Appie</div>
+            <div class="collapsible-body">
+                Bakra toko
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons">cake</i>Other</div>
+            <div class="collapsible-body">
+                ergens anders
+            </div>
+        </li>
+    </ul>
+</div>
+{% endblock %}
