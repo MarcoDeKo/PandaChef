@@ -31,3 +31,9 @@ def shoppinglist(request):
         request,
         'cookbook/shoppinglist.html'
     )
+
+def search(request):
+    return render(
+        request,
+        'cookbook/search.html'
+    )
