@@ -25,7 +25,7 @@ SECRET_KEY = '@6l^r^e#7@3vy@go1g=x1!4s_4f754($)5trzo^&q#^(2=!o&o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://pandachef.azurewebsites.net/]
 
 
 # Application definition
